@@ -1,4 +1,10 @@
-// CORS ommit
+/*
+  Access-Control-Allow-Origin allow pages that can acces API
+                  A-C-A-Methods allow http methods
+                  A-C-A-Headers allow headers
+
+
+*/
 module.exports = (req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader(
